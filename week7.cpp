@@ -3,7 +3,7 @@
 #include<string.h>
 #include<ctype.h>
 
-char letterCheck(char letter, char* text, int lenght)
+char letterCheck(char letter, char* text, int lenght) // Pointer is here.
 {
     int count = 0;
     for (int i = 0; i < lenght; i++)
